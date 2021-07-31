@@ -1,0 +1,11 @@
+Face recognition performed on the deepfunelled lfw dataset using mtcnn, and transfer learning using vgg16.
+
+Performs facial recognition on the top ten most images having classes in the lfw deepfunelled dataset.
+Has about an 84% accuracy.
+
+To run:
+--Download the lfw-deepfunelled dataset
+--Extract and rename to "lfw-deepfunelled"
+--Run image-extract.py to move the top ten most images containing directories to a different folder
+--Upload this folder to google-drive on a folder and set the paths correctly in the notebook so that 'unedited' folder is in the root of the directory you are in, or set up everything locally and edit the notebook
+--Run the notebook
